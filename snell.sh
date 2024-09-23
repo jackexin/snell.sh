@@ -39,7 +39,7 @@ install_snell() {
     wait_for_apt
     apt update && apt install -y wget unzip
 
-    SNELL_VERSION="v4.0.1"
+    SNELL_VERSION="v4.1.1"
     ARCH=$(uname -m)
     SNELL_URL=""
     INSTALL_DIR="/usr/local/bin"
